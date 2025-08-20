@@ -1,15 +1,15 @@
-# Maintainer: Erik Dubois <erik.dubois@gmail.com>
+# Maintainer: Gia Phu <crystalforceix@gmail.com>
 pkgname=cappalinux-calamares-config-zen
 _destname1="/etc"
 pkgver=24.12
 pkgrel=01
-pkgdesc="calamares for ALCI"
+pkgdesc="calamares for Cappa Linux"
 arch=('any')
 url="https://github.com/crystalforceix"
 license=('GPL3')
 makedepends=('git')
 depends=()
-conflicts=('alci-calamares-config' 'alci-calamares-config-pure' 'alci-calamares-config-btrfs' 'alci-calamares-config-dev' 'alci-calamares-config-hardened' 'alci-calamares-config-lts')
+conflicts=('nothing')
 provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=(${pkgname}::"git+${url}/${pkgname}")

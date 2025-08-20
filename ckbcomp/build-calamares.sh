@@ -4,7 +4,7 @@ destination1=./../Template-Built/
 
 destiny=$destination1
 
-search1="cappalinux-calamares"
+search1="ckbcomp"
 search=$search1
 
 tput setaf 2
@@ -12,6 +12,7 @@ echo "##########################################################################
 echo "#########        Let us build the package "$(basename `pwd`)
 echo "#############################################################################################"
 tput sgr0
+
 
 makepkg -s
 
@@ -24,7 +25,7 @@ echo "##########################################################################
 echo "deleting unnecessary folders"
 echo "#############################################################################################"
 
-rm -rf pkg src cappalinux-calamares-config*
+rm -rf pkg src
 
 echo "deleting unnecessary files"
 echo "#############################################################################################"
