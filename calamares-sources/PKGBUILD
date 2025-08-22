@@ -12,7 +12,7 @@ pkgrel=01
 pkgdesc='Distribution-independent installer framework'
 arch=('i686' 'x86_64')
 license=(GPL)
-url="https://github.com/crystalforceix/calamares-sources/"
+url="https://github.com/Cappa-Linux/calamares-sources/"
 license=('LGPL')
 depends=(
 	'boost-libs'
@@ -57,7 +57,7 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/initcpio.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
-source=($_pkgname::git+https://github.com/crystalforceix/calamares-sources
+source=($_pkgname::git+https://github.com/Cappa-Linux/calamares-sources
 	"calamares.desktop"
 	"calamares_polkit"
 	"49-nopasswd-calamares.rules")
