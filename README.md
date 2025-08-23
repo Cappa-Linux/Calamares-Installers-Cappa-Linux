@@ -1,1 +1,3 @@
-Heyyy
+<div align="center">
+<strong>Heyyy! don't forget that ArcoLinux is a legendary>:)</strong>
+</div>
